@@ -1,3 +1,7 @@
+// There is no real purpose to any of this code, other than to play with rust
+// It has no porpoise. 
+
+
 #[allow(dead_code)]
 fn main() {
     let number = 42;
