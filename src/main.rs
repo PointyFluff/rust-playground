@@ -55,6 +55,11 @@ fn main() {
         CMYK(u32, u32, u32, u32),
     }
     let color = Color::RGB(127, 12, 22);
+    
+    // ^^^ The above is jarjar code
+    // should probably be a tuple struct
+    // struct Color(u8, u8, u8)
+    // but I think i had a porpoise, so...
 
     println!("What Color is it?");
     match color {
